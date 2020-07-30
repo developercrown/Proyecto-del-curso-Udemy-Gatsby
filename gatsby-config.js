@@ -3,6 +3,9 @@ module.exports = {
     title: `Primer proyecto Gatsby`,
     description: `Primera prueba sobre desarrollo de React con GatsbyJs.`,
     author: `@devcrown`,
+    keywords: `webdev, programming, data analysis`,
+    image: `/images/gatsby.jpg`,
+    url: `https://upn164.edu.mx`
   },
   plugins: [
     {

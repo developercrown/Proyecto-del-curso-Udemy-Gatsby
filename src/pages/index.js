@@ -2,10 +2,12 @@ import React from "react";
 import Post from '../components/Post';
 import PrimaryLayout from '../components/Layouts/PrimaryLayout';
 import { graphql } from 'gatsby';
+import SEO from "../components/SEO";
 
 export default ({ data }) => {
 	console.log(data);
 	return <PrimaryLayout>
+		<SEO></SEO>
 		<div className="col-12 col-md-6 mt-2 align-items-center justify-content-center">
 			{
 				data.allMarkdownRemark.nodes.map((node, key) => {
